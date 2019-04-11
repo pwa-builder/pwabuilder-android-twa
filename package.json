@@ -1,10 +1,10 @@
 {
-  "name": "pwabuilder-android",
+  "name": "pwabuilder-android-twa",
   "version": "2.0.0-rc.0",
   "description": "PWA Builder Android Platform",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pwa-builder/pwabuilder-android.git"
+    "url": "https://github.com/pwa-builder/pwabuilder-android-twa.git"
   },
   "engines": {
     "node": ">=0.12.0"

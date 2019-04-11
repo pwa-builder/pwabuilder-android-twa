@@ -1,13 +1,5 @@
 <resources>
-    <string name="app_name">pwa</string>
-    <string name="app_url">https://southworks.com/</string>
-    <string name="app_host">southworks.com</string>
-    <string name="asset_statements">
-        [{
-            \"relation\": [\"delegate_permission/common.handle_all_urls\"],
-            \"target\": {
-                \"namespace\": \"web\",
-                \"site\": \"https://southworks.com\"}
-        }]
-    </string>
+    <string name="app_name">app_name</string>
+    <string name="app_url">app_url</string>
+    <string name="app_host">app_host</string>
 </resources>
