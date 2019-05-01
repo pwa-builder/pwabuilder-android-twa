@@ -1,11 +1,12 @@
 <resources>
     <string name="app_name">app_name</string>
+    <string name="app_url">app_url</string>
     <string name="asset_statements">
         [{
             \"relation\": [\"delegate_permission/common.handle_all_urls\"],
             \"target\": {
                 \"namespace\": \"web\",
-                \"site\": \"app_url\"}
+                \"site\": \"start_url\"}
         }]
     </string>
     <string name="app_host">app_host</string>
