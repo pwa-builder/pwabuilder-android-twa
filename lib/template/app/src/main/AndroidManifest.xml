@@ -12,6 +12,11 @@
         android:icon="@mipmap/ic_launcher"
         android:theme="@style/SplashTheme"
         tools:ignore="GoogleAppIndexingWarning" >
+        
+        <meta-data
+            android:name="asset_statements"
+            android:resource="@string/asset_statements" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
