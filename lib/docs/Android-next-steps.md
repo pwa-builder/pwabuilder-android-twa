@@ -2,11 +2,13 @@
 
 ## Test
 
-1. Your application uses the same rendering and JavaScript Engine as the Chrome Browser so most of you testing can be done on your website and in the browser.
+1. Your application uses the same engine as Google Chrome so most of you testing can be done in the browser.
 
-2. To test your application on a device, download the PWA Builder test harness from the Store, and follow the directions. _Coming soon!_
+## Associate your PWA with your apk
 
-> **Note:** Looking for some debugging tools that work on all your platforms? Try [Vorlon.js](http://www.vorlonjs.com/). It makes mobile testing a breeze, and works inside the app PWA Builder apps.
+If you are seeing a URL bar in your app you need to follow the below instructions to associate your PWA with the built APK:
+
+1. https://developers.google.com/web/updates/2019/02/using-twa#remove-url-bar
 
 ## Build
 
@@ -18,7 +20,7 @@
 
 4. (Optional) Customize the splash screen of the app. Edit `app\res\drawable\splash.xml` and specify the image of your preference. If found, PWA Builder will place a suggested splash screen in `app\res\mipmap\ic_splash.png`.
 
-4. Use Build Menu to create package.
+4. Use the Build Menu in Android Studio to create the package.
 
 
 ## Submit to Store
